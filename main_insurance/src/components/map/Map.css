@@ -1,0 +1,45 @@
+.map-wrapper {
+    display: flex;
+  
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  
+  .mapcomponent {
+    flex: 2;
+    margin-right: 2%;
+  }
+  
+  .info-card {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .location-input p {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #d32f2f; 
+  }
+  
+  .location-input .MuiTextField-root {
+    margin-bottom: 15px;
+  }
+  
+  .MuiButton-root {
+    background-color: #d32f2f;
+    color: white;
+    width: 100%;
+  } 

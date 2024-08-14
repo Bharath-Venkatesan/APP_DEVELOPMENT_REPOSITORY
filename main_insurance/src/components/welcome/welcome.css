@@ -1,0 +1,48 @@
+body{
+    background-color: #ffffff54;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+.page-container {
+    position: relative;
+  }
+  
+  .floating-text {
+    position: static;
+    left: 0;
+    width: 100%;
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    box-sizing: border-box; 
+    white-space: nowrap;
+    animation: float 20s linear infinite;
+    z-index: 10;
+  }
+
+  .buttoninsurancemenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5cm;
+    height: 20vh; 
+  }
+
+
+  
+  
+  @keyframes float {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%); 
+    }
+  }
+  
+  .my-carousel {
+    margin-top: 10px; 
+  }
+
+  

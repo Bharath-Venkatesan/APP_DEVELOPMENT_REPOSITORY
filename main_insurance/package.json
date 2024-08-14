@@ -1,0 +1,72 @@
+{
+  "name": "main_insurance",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "@mui/styles": "^5.16.7",
+    "@mui/x-data-grid": "^7.12.1",
+    "@stripe/react-stripe-js": "^2.7.3",
+    "@stripe/stripe-js": "^4.2.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ajv": "^8.0.0",
+    "ajv-keywords": "^5.0.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "chart.js": "^4.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "leaflet": "^1.9.4",
+    "main_insurance": "file:",
+    "mysql": "^2.18.1",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-chatbot-kit": "^2.2.2",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.30.2",
+    "react-swipeable-views": "^0.14.0",
+    "react-toastify": "^10.0.5",
+    "recharts": "^2.12.7",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8000"
+}

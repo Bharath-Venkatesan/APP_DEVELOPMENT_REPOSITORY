@@ -1,0 +1,114 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  position: relative; /* Ensure the container is positioned relative for absolute positioning inside */
+}
+
+.headeradmin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-title {
+  font-weight: bold;
+}
+
+.adminlogout-button {
+  padding: 0; /* Remove default padding */
+  align-self: flex-end;
+  position: absolute; /* Position icon absolutely */
+  top: 20px; /* Adjust the top position */
+  right: 20px; /* Adjust the right position */
+  min-width: 0; /* Ensure the button size fits the icon */
+  width: auto; /* Fit the width to the content */
+}
+
+.adminmain-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar-trigger {
+  display: none;
+}
+
+.sidebaradmin {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.sidebaradmin Button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.sidebaradmin Button:last-child {
+  margin-bottom: 0;
+}
+
+.contentadmin {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-container {
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  margin-top: 20px;
+}
+
+.table-container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-container .MuiTableCell-root {
+  padding: 16px;
+}
+
+.table-container .MuiTableRow-root:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.table-container .MuiTableRow-root:nth-of-type(odd) {
+  background-color: #fff;
+}
+
+.table-container .MuiTableCell-root:last-child {
+  width: 120px;
+}
+
+.table-container .MuiIconButton-root {
+  margin-right: 8px;
+}
+
+.table-container .MuiIconButton-root:last-child {
+  margin-right: 0;
+}
+
+.chart-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.MuiDialog-paper {
+  min-width: 300px;
+}
+
+.MuiDialogTitle-root {
+  font-weight: bold;
+}
